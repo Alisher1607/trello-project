@@ -1,0 +1,23 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1424px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.deleteIcon {
+  cursor: pointer;
+  color: lightgrey;
+  padding: 0 7px;
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+}
+
+.deleteIcon:hover {
+  color: red;
+}
